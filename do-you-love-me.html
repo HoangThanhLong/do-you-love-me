@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HI</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<div id="manHinh"></div>
+<h2 style="position: absolute; left: 400px; top: 40px ; color: red" >DO YOU LOVE ME?</h2>
+<button id="Yes" type="button" onclick="clickYes()">Yes</button>
+<button id="No" type="button" onmouseover="noHover()">No</button>
+<script>
+    function clickYes() {
+        alert("<3");
+    }
+    function noHover() {
+        document.getElementById('manHinh').innerHTML = "Hông được đâu sói ak ^_^";
+        let a = Math.round(Math.random() * innerHeight);
+        let b = Math.round(Math.random() * innerWidth);
+        document.getElementById('No').style.left = b + 'px';
+        document.getElementById('No').style.top = a + 'px';
+    }
+</script>
+</body>
+</html>
