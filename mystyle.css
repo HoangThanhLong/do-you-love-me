@@ -1,0 +1,14 @@
+#No{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+#Yes{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+}
+#manHinh{
+    font-weight: bold;
+    color: green;
+}
